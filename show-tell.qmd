@@ -1,0 +1,57 @@
+---
+title: "Cursor: The surprisingly powerful AI editor"
+format: 
+    revealjs:
+        incremental: true
+---
+
+## LLMs are great!
+
+-   Generate code from natural language
+-   Autocomplete for everything
+-   Summarize documents
+
+## Trap of averageenss
+
+-   Fundamentally LLMs produce an average response
+-   Most of what you do isn't average
+    -   New things
+    -   Niche things
+    -   Navigating complexity
+
+## Retrieval Augmented Generation (RAG)
+
+-   Use your human brain to define a context
+-   **Retrieve** embeddings from that context
+-   **Augment** the LLM call with those embeddings
+-   **Generate** contextual responses
+
+## Cursor's one trick
+
+-   Consumer level RAG system
+-   Adds Chat GPT to VS Code
+-   Allows you to define your own embedding
+
+## {background-image="images/vanilla-chat-gpt.png"}
+
+## Adding context improves results
+![](images/cursor-shiny-python.mp4)
+
+## Not just for coding!
+- You can index _anything_ 
+- Use cases:
+    - Query our documentation
+    - Summarize support ticket 
+    - Query Posit Community 
+
+## Using for support
+
+![](images/quarto-question.png)
+
+## Using for support
+![](images/quarto-answer.png)
+
+## Don't trust machines!
+- RAG improves results, but they might have errors
+- Be careful of sensitive data
+- Check sources, proofread
